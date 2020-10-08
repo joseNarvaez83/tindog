@@ -1,0 +1,181 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Download Buttons */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Features */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.fa-check-circle {
+    color: #ef8172;
+    margin: 5% 3% 5% 0;
+}
+
+.fa-check-circle:hover {
+    color: #ff3c68;
+}
+
+.fa-bullseye {
+    color: #ef8172;
+    margin: 5% 3% 5% 0;
+}
+
+.fa-bullseye:hover {
+    color: #ff3c68;
+}
+
+.fa-heart {
+    color: #ef8172;
+    margin: 5% 3% 5% 0;
+}
+
+.fa-heart:hover {
+    color: #ff3c68;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: bolder;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Call to Action Section */
+#cta {
+    background-color: #ff3c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: #fff;
+}
+
+.cta-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#footer span {
+    padding: 10px 5px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
